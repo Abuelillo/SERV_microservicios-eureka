@@ -14,16 +14,16 @@
 
 # Proyecto / Librerias compartidos
 	
-	- commons-alumnos -> microservicios-cursos, microservicios-usuarios
+	- commons-alumnos 		 -> microservicios-cursos, microservicios-usuarios
 	- commons-microservicios -> todos
-	- commons-examenes -> microservicios-examenes , microservicios-cursos
+	- commons-examenes  	 -> microservicios-examenes , microservicios-cursos
 
 # Microservicios
 
-	- microservicios-cursos
-	- microservicios-examenes
-	- microservicios-respuestas
-	- microservicios-usuarios
+	- microservicios-cursos			-> mysql		/	MariaDB 	/	heidiSQL
+	- microservicios-examenes		-> mysql		/	MariaDB 	/	heidiSQL
+	- microservicios-respuestas		-> mysql		/	MariaDB 	/	heidiSQL
+	- microservicios-usuarios		-> postgresql 	/	pgAdmin
 
 # Servidor
 
