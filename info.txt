@@ -1,0 +1,35 @@
+# BBDD
+
+	* Postgres			 - > https://www.enterprisedb.com/downloads/postgres-postgresql-downloads
+	* (heidiSQL) mariaDB - > https://mariadb.com/downloads/
+	* MongoDB			 - > https://www.mongodb.com/try/download/community
+ 
+# Info properties
+
+	* configuraciones -> https://docs.spring.io/spring-boot/docs/2.0.x/reference/html/common-application-properties.html
+
+# Postman
+	
+	* Academia
+
+# Proyecto / Librerias compartidos
+	
+	- commons-alumnos -> microservicios-cursos, microservicios-usuarios
+	- commons-microservicios -> todos
+	- commons-examenes -> microservicios-examenes , microservicios-cursos
+
+# Microservicios
+
+	- microservicios-cursos
+	- microservicios-examenes
+	- microservicios-respuestas
+	- microservicios-usuarios
+
+# Servidor
+
+	- microservicios-eureka
+	
+# Proxy inverso o Edge service (balanceador, enrutamiento y filtro)
+
+	- microservicios-zuul (obsoleto - no aconsejado)
+	- microservicios-gateway
