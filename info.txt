@@ -22,7 +22,7 @@
 
 	- microservicios-cursos			-> mysql		/	MariaDB 	/	heidiSQL
 	- microservicios-examenes		-> mysql		/	MariaDB 	/	heidiSQL
-	- microservicios-respuestas		-> mysql		/	MariaDB 	/	heidiSQL
+	- microservicios-respuestas		-> mongoDB		/	MongoDB compass
 	- microservicios-usuarios		-> postgresql 	/	pgAdmin
 
 # Servidor
